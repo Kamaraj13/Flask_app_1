@@ -1,3 +1,4 @@
+https://github.com/Kamaraj13/Flask_app_1
 # Create a python 3 virtualenv
 # install requirements
 
@@ -9,3 +10,9 @@ $ source env/bin/activate
 (env) $ pip install flask
 # To return to the global Python
 (env) $ deactivate
+
+#if you get an error while running flask 
+
+Error: Could not locate a Flask application. Use the 'flask --app' option, 'FLASK_APP' environment variable, or a 'wsgi.py' or 'app.py' file in the current directory
+#use below command
+export FLASK_APP=main.py
