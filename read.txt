@@ -1,0 +1,11 @@
+# Create a python 3 virtualenv
+# install requirements
+
+python3 -m venv env
+pip install vertualenv
+
+$ virtualenv env
+$ source env/bin/activate
+(env) $ pip install flask
+# To return to the global Python
+(env) $ deactivate
